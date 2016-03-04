@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:transitionGroup="false"
+    android:nestedScrollingEnabled="false"
+    tools:context="com.example.ellis_wu.customdialogdemo.CustomDialogActivity"
+    android:id="@+id/dialogBackground"
+    android:gravity="center_vertical|center_horizontal"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="330dp"
+        android:layout_height="270dp"
+        android:background="#ffffffff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/practice_dialog_text"
+            android:text="恭喜你完成了練習!!"
+            android:textColor="@android:color/black"
+            android:minHeight="100dp"
+            android:padding="30dp"
+            android:background="@android:color/white"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+            <com.facebook.share.widget.ShareButton
+                android:id="@+id/share_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/share"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="確認"
+                android:id="@+id/btn_confirm"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.21"
+                android:onClick="ButtonClicked"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

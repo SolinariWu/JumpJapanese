@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="title_activity_main__menu">Map</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="location_name">
+    <item>東京(とうきょう)</item>
+    <item>名古屋(なごや)</item>
+    <item>京都(きょうと)</item>
+    <item>大阪(おおさか)</item>
+    <item>神戶(こうべ)</item>
+    <item>北海道(ほっかいど)</item>
+    </string-array>
+    <color name="lightskyblue">#7fceea</color>
+    <string name="facebook_app_id">913098362077425</string>
+    <string name="share">Share</string>
+</resources>

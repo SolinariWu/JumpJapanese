@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:transitionGroup="false"
+    android:nestedScrollingEnabled="false"
+    tools:context="com.example.ellis_wu.customdialogdemo.CustomDialogActivity"
+    android:id="@+id/dialogBackground"
+    android:gravity="center_vertical|center_horizontal"
+  >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="330dp"
+        android:layout_height="270dp"
+        android:background="#ffffffff">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound_buttton"
+            android:background="#00000000"
+            android:src="@drawable/sound"
+            android:onClick="SoundButton" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/text_content"
+            android:text="這是您客製化的視窗!"
+            android:textColor="@android:color/black"
+            android:minHeight="100dp"
+            android:padding="30dp"
+            android:background="@android:color/white"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="確認"
+                android:id="@+id/btn_confirm"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.21"
+                android:onClick="ButtonClicked"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

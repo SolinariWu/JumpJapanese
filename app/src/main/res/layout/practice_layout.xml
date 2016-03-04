@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignBottom="@+id/Topic">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/Numberofquestions"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Topic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2"
+        android:layout_marginTop="129dp"
+        android:layout_below="@+id/Topic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tableLayout">
+    <TableRow>
+        <Button
+            android:id="@+id/practice_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a"
+            android:onClick="ButtonClicked"
+            />
+        <Button
+            android:id="@+id/practice_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button2"
+            android:onClick="ButtonClicked"
+
+            />
+        <Button
+            android:id="@+id/practice_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button2"
+            android:onClick="ButtonClicked"
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/practice_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button3"
+            android:onClick="ButtonClicked"
+            />
+        <Button
+            android:id="@+id/practice_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button4"
+            android:onClick="ButtonClicked"
+            />
+        <Button
+            android:id="@+id/practice_button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button5"
+            android:onClick="ButtonClicked"
+            />
+    </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
+
+
+

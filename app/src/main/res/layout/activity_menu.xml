@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MenuActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="練習"
+        android:id="@+id/menu_practice"
+        android:onClick="ButtonClicked"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50音"
+        android:id="@+id/menu_learning"
+        android:onClick="ButtonClicked"
+        android:layout_above="@+id/menu_practice"
+        android:layout_marginBottom="42dp"
+        android:layout_alignRight="@+id/menu_practice"
+        android:layout_alignEnd="@+id/menu_practice"
+        android:layout_alignLeft="@+id/menu_practice"
+        android:layout_alignStart="@+id/menu_practice" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日本地名"
+        android:id="@+id/location_name"
+        android:onClick="ButtonClicked"
+        android:layout_below="@+id/menu_practice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+
+</RelativeLayout>
