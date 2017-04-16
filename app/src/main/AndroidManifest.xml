@@ -94,7 +94,7 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:label="@string/app_name"
             android:screenOrientation="portrait"  />
-        <provider android:authorities="com.facebook.app.FacebookContentProvider913098362077425"
+        <provider android:authorities="com.facebook.app.FacebookContentProviderXXXXXXXXXX"
             android:name="com.facebook.FacebookContentProvider"
             android:exported="true"/>
     </application>
