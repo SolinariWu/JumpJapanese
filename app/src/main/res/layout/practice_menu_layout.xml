@@ -4,7 +4,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="請選擇要練習的範圍"
+        android:text="請選擇要挑戰的範圍"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textSize="20dp" />
@@ -55,7 +55,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="前往練習!"
+        android:text="前往挑戰!"
         android:id="@+id/practice_menu_button"
         android:layout_gravity="center_horizontal"
         android:onClick="ButtonClicked"/>

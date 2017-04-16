@@ -44,8 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="a"
-            android:onClick="ButtonClicked"
-            />
+            android:onClick="ButtonClicked" />
         <Button
             android:id="@+id/practice_button2"
             android:layout_width="wrap_content"
@@ -59,8 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button2"
-            android:onClick="ButtonClicked"
-            />
+            android:onClick="ButtonClicked" />
     </TableRow>
     <TableRow>
         <Button
@@ -68,22 +66,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button3"
-            android:onClick="ButtonClicked"
-            />
+            android:onClick="ButtonClicked" />
         <Button
             android:id="@+id/practice_button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button4"
-            android:onClick="ButtonClicked"
-            />
+            android:onClick="ButtonClicked" />
         <Button
             android:id="@+id/practice_button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button5"
-            android:onClick="ButtonClicked"
-            />
+            android:onClick="ButtonClicked" />
     </TableRow>
     </TableLayout>
 

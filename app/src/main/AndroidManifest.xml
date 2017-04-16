@@ -15,8 +15,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:label="躍升吧!日本語"
         android:theme="@style/AppTheme" >
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
         <meta-data
@@ -24,10 +24,11 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyBkRfNclxgK-6DkZF8guBgTTpgO5t2vBoc" />
+            android:value="AIzaSyCNjui7A9ReReypETQvvpTbzJkMoykFRC4" />
         <activity
             android:name=".MenuActivity"
-            android:label="@string/app_name" >
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,16 +37,16 @@
         </activity>
         <activity
             android:name=".Practice_Activity"
-            android:label="@string/app_name"
-            android:parentActivityName=".MenuActivity" >
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait"  >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.solinari.finalproject.MenuActivity"/>
         </activity>
         <activity
             android:name=".Learn_menu"
-            android:label="@string/app_name"
-            android:parentActivityName=".MenuActivity" >
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait"  >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.solinari.finalproject.MenuActivity"/>
@@ -53,13 +54,15 @@
         </activity>
         <activity
             android:name=".Practice_menu"
-            android:label="@string/app_name"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait"
             >
         </activity>
         <activity
             android:name=".Learn_Activity"
-            android:label="@string/app_name"
+            android:label=""
             android:parentActivityName=".Learn_menu"
+            android:screenOrientation="portrait"
             >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -68,26 +71,29 @@
         </activity>
         <activity
             android:name=".Learn_dialog"
-            android:label="50音學習"
             android:theme="@style/Theme.AppCompat.Dialog"
+            android:screenOrientation="portrait"
             >
         </activity>
         <activity
             android:name=".Practice_dialog"
-            android:label="50音學習"
             android:theme="@style/Theme.AppCompat.Dialog"
+            android:screenOrientation="portrait"
             >
 
         </activity>
         <activity
             android:name=".Location_name_Activity"
-            android:label="@string/title_activity_main__menu" >
+            android:label="日本地圖"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait"  >
         </activity>
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
                 "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:label="@string/app_name" />
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  />
         <provider android:authorities="com.facebook.app.FacebookContentProvider913098362077425"
             android:name="com.facebook.FacebookContentProvider"
             android:exported="true"/>

@@ -2,6 +2,7 @@ package com.example.solinari.finalproject;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,7 +16,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Location_name_Activity extends FragmentActivity  implements OnMapReadyCallback {
+public class Location_name_Activity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
     private String userloaction="";

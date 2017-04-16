@@ -1,5 +1,6 @@
 package com.example.solinari.finalproject;
 
+import android.app.Activity;
 import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle;
@@ -11,7 +12,7 @@ import android.widget.TextView;
 /**
  * Created by Solinari on 2015/12/23.
  */
-public class Learn_dialog extends AppCompatActivity {
+public class Learn_dialog extends Activity {
     TextView text_content;
     ImageButton sound_buttton;
     SoundPool soundPool;
