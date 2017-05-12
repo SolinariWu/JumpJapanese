@@ -5,7 +5,7 @@ Learn Japanese syllabary(Hiragana、Katakana) App(Traditional Chinese interface)
 
 Learn/listen syllabary、practice(complete practice can share in Facebook)、learn about Japanese cities by Goolge map.
 
-Is the University 「App programming」 Class Project,with Orange(小橘仔)、Bill. 
+University 「App programming」class project cooperate with Orange(小橘仔)、Bill.
 
 APK Download ：https://github.com/SolinariWu/JumpJapanese/blob/master/JumpJapanese.apk
 
